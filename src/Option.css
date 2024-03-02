@@ -1,0 +1,15 @@
+.option {
+    border-color: grey;
+    border: solid;
+    border-radius: 5px;
+    border-width: 1px;
+
+    padding: 1vh 3vw;
+    margin: 1vw;
+}
+
+.cost {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5px;
+    border-radius: 5px;
+}
