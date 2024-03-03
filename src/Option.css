@@ -3,9 +3,13 @@
     border: solid;
     border-radius: 5px;
     border-width: 1px;
-
     padding: 1vh 3vw;
     margin: 1vw;
+}
+.option:hover {
+    cursor: pointer;
+    box-shadow:  0 0 20px #02f7ff;
+    transition: box-shadow 0.1s ease-in-out;
 }
 
 .cost {

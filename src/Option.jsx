@@ -12,6 +12,7 @@ const Option = (props) => {
             <p className="multiplier">{props.multiplier}x per click</p>
 
             <p className="cost">{props.cost} samosas</p>
+            <button onClick = {props.onClick}>Select</button>
         </div>
     );
 }

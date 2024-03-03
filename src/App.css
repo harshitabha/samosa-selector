@@ -17,4 +17,15 @@
   display: flex;
   width: 100%;
   justify-content: center;
+  flex-direction: column;
+}
+
+img:hover {
+  filter: drop-shadow(0 0 10px #ffc259);
+  transition: filter 0.3s smooth ease-in-out;
+}
+img:active{
+  scale: 1.1;
+  filter: drop-shadow(0 0 30px #ffc259);
+  transition: filter 0.5s smooth ease-in-out;
 }
